@@ -1,0 +1,27 @@
+# Basic
+name:               "WADE Developers"
+
+# URL
+baseurl:            "https://developer.wade.pw"
+permalink:          /:title
+
+# Markdown
+markdown:           rdiscount
+
+css:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
