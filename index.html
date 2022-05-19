@@ -5,4 +5,22 @@ style: index.css
 
 <div class="main">
   <h1>개발자만의 공간,<br>개발자를 위한 문서</h1>
+  <a class="start" href="">지금 시작하기 →</a>
 </div>
+
+<div class="post">
+  <h1>최신 글</h1>
+  
+  <div class="list">
+    {% for post in site.posts limit:6 %}
+      <a class="item" href="{{ post.url }}">
+        <p class="title">{{ post.title }}</p>
+        <p class="info">{{ post.info }}</p>
+      </a>
+    {% endfor %}
+  </div>
+  
+  <div class="btn">
+    <a class="more" href="./newpost">최신 글 더 보기</a>
+  </div>
+  </div>
