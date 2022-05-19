@@ -1,8 +1,9 @@
 ---
 ---
+/* Main */
 .main {
     background-color: #191a2b;
-    padding: 200px 17%;
+    padding: 230px 17%;
     text-align: center
 }
 
@@ -11,4 +12,74 @@
     margin: 0;
     font-size: 46px;
     font-weight: 500;
+}
+
+.main .start{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 112, 231);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.main .start:hover{
+    background-color: rgb(2, 100, 205);
+}
+
+.post {
+    padding: 200px 17%;
+}
+
+.post .list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.post .list .item{
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #E7EBF0;
+    padding: 20px;
+}
+
+.post .list .item p{
+    margin: 0;
+}
+
+.post .list .item p.title{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(43, 77, 105);
+    transition: 0.5s;
+}
+
+.post .list .item:hover p.title{
+    color: rgb(49, 65, 80);
+    text-decoration: underline;
+}
+
+.post .list .item p.info{
+    color: rgb(48, 55, 76);
+    margin-top: 10px;
+}
+
+.post .btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.post .more{
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 7px;
+    background-color: rgb(69, 84, 99);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    
 }
