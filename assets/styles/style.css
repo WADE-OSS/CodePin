@@ -1,0 +1,33 @@
+---
+---
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+}
+
+.navs{
+    background-color: #050822;
+    display: flex;
+    padding: 10px 12%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navs .logo{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.navs .link a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    fill: #fff;
+    padding: 0 17px;
+}
+
+.navs .link a:hover{
+    color: #c9cdeb;
+    fill: #c9cdeb;
+}
