@@ -50,6 +50,7 @@ body{
 
 .dropdown .dropbtn:hover{
     color: #c9cdeb;
+    fill: #c9cdeb;
 }
 
 .dropdown .dropdown-content{
@@ -59,6 +60,7 @@ body{
     border-radius: 10px;
     border: solid 1px rgb(100, 117, 130);
     padding: 15px;
+    margin: 1px;
 }
 
 .dropdown .dropdown-content a{
@@ -68,34 +70,24 @@ body{
     margin-bottom: 7px;
 }
 
+.dropdown .dropdown-content a.html, .dropdown .dropdown-content a.html:hover{
+    border-left: solid 1.5px rgb(255, 126, 57);
+}
+
+.dropdown .dropdown-content a.css, .dropdown .dropdown-content a.css:hover{
+    border-left: solid 1.5px rgb(107, 129, 255);
+}
+
+.dropdown .dropdown-content a.javascript, .dropdown .dropdown-content a.javascript:hover{
+    border-left: solid 1.5px rgb(255, 193, 6);
+}
+
 .dropdown .dropdown-content a:hover{
-    color: rgb(188, 204, 211);
-    border-left: solid 1px rgb(155, 179, 191);
+    color: rgb(226, 243, 250);
+    border-left: solid 1.5px rgb(226, 243, 250);
 }
 
 .dropdown:hover .dropdown-content{
     display: block;
     transition: 0.5s;
-}
-
-/* footer */
-footer{
-    display: block;
-    background-color: #000;
-    padding: 100px 12%;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-}
-
-footer h1{
-    font-weight: 400;
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-
-footer .copy{
-    margin: 0;
-    font-size: 12px;
 }
