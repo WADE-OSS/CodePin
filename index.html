@@ -14,6 +14,7 @@ style: index.css
   <div class="list">
     {% for post in site.posts limit:6 %}
       <a class="item" href="{{ post.url }}">
+        <p class="category">{{ post.categorys }}</p>
         <p class="title">{{ post.title }}</p>
         <p class="info">{{ post.info }}</p>
       </a>
@@ -23,4 +24,4 @@ style: index.css
   <div class="btn">
     <a class="more" href="./newpost">최신 글 더 보기</a>
   </div>
-  </div>
+</div>
