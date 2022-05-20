@@ -1,7 +1,7 @@
 ---
 title: 프론트엔드와 백엔드 그리고 풀스택 까지
 info: 프론트엔드, 백엔드, 풀스택 개발자에 대한 설명글 입니다.
-categories : [Knowledge]
+categorys : [Knowledge]
 ---
 
 프론트 엔드와 백엔드 그리고 풀스택 까지
