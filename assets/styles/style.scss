@@ -116,3 +116,25 @@ footer .copy{
     margin: 0;
     font-size: 12px;
 }
+
+/* Docs */
+.docs{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+
+.docs .scroll{
+    border-right: solid 1px rgb(230, 230, 230);
+}
+
+.docs .sidebar{
+    position: fixed;
+    width: 14%;
+    height: 100%;
+    padding: 20px 3%;
+    overflow:scroll;
+}
+
+.docs .contents{
+    padding: 100px 25% 150px 10%;
+}
