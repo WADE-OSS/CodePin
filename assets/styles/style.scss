@@ -121,6 +121,7 @@ footer .copy{
 .docs{
     display: grid;
     grid-template-columns: 20% 1fr;
+    padding-top: 56px;
 }
 
 .docs .scroll{
@@ -128,13 +129,14 @@ footer .copy{
 }
 
 .docs .sidebar{
+    display: block;
     position: fixed;
     width: 14%;
-    height: 100%;
+    height: 88%;
     padding: 20px 3%;
     overflow:scroll;
 }
 
 .docs .contents{
-    padding: 100px 25% 150px 10%;
+    padding: 140px 25% 200px 10%;
 }
