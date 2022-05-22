@@ -137,6 +137,23 @@ footer .copy{
     overflow:scroll;
 }
 
+.docs .sidebar a{
+    display: block;
+    color: rgb(62, 68, 87);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    transition: color 0.5s;
+}
+
+.docs .sidebar a:hover{
+    color: rgb(0, 149, 255);
+}
+
+.docs .sidebar a.active{
+    color: rgb(0, 149, 255);
+}
+
 .docs .contents{
     padding: 140px 25% 200px 10%;
 }
