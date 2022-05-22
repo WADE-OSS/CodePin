@@ -1,7 +1,7 @@
 ---
 title: HTML 요소 속성
 info:  HTML 속성은 HTML 요소에 대한 추가 정보를 제공합니다.
-categorys : [HTML]
+categories : [HTML]
 tag : [Getting Started]
 ---
 
