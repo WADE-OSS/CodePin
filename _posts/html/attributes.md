@@ -2,7 +2,7 @@
 title: HTML 요소 속성(HTML Element Attributes)
 info:  HTML 속성은 HTML 요소에 대한 추가 정보를 제공합니다.
 categorys : [Getting Started]
-lang : HTML
+lang : [HTML]
 ---
 
 # 소개
