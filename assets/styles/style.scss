@@ -140,3 +140,67 @@ footer .copy{
 .docs .contents{
     padding: 140px 25% 200px 10%;
 }
+
+.docs .contents h1{
+    font-weight: 400;
+}
+
+.docs .contents h2{
+    margin-top: 70px;
+    padding-top: 30px;
+    font-weight: 500;
+    border-top: solid 1px #3c3c3c1f;
+}
+
+.docs .contents div.highlighter-rouge{
+    padding: 10px 15px;
+    background-color: #050822;
+    color: rgb(248, 248, 248);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.docs .contents div.language-ex::before{
+    content: "Example";
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(155, 174, 187);
+}
+
+.docs .contents div.language-html::before{
+    content: "HTML";
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(155, 174, 187);
+}
+
+.docs .contents div.language-js::before{
+    content: "JS";
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(155, 174, 187);
+}
+
+.docs .contents img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.docs .contents ol{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.docs .contents li{
+    margin-bottom: 25px;
+}
+
+.docs .contents a{
+    color: #3183fe;
+}
