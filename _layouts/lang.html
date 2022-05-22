@@ -47,7 +47,7 @@
     <div class="docs">
         <div class="scroll">
             <div class="sidebar">
-                {% assign language = page.lang | default: page.title %}
+                {% assign language = page.lang | default: page.lang %}
                 <!-- {{ language }} : {{ site.lang[language] }} -->
                 {% for post in site.lang[language] %}
                   <a href="{{ post.url }}">{{ post.title }}</a>
