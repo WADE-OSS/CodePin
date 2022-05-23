@@ -3,7 +3,7 @@ name:               "WADE Developers"
 
 # URL
 baseurl:            "https://developer.wade.pw"
-permalink:          /:categories/:tag/:title
+permalink:          /:categories/:title
 
 # Markdown
 markdown:           rdiscount
