@@ -11,7 +11,7 @@ Python은 매우 쉬운 언어로 처음 초보자들이 시작할때 가장 많
 
 
 ## 다운로드 시작
-그럼 다운로드를 시작합니다. 일단 https://python.org/ 에 들어가 줍니다 그 후 위에 있는 download버튼을 눌러 다운로드 페이지로 가줍니다.
+그럼 다운로드를 시작합니다. 일단 [Python.org](https://python.org) 에 들어가 줍니다 그 후 위에 있는 download버튼을 눌러 다운로드 페이지로 가줍니다.
 ![](https://media.discordapp.net/attachments/823315410077089792/978230445068144660/unknown.png)
 
 그러면 저렇게 생긴 버튼이 크게 있을텐데, 본인의 운영체제에 맞게 설치 하시면 되겠습니다!
@@ -35,7 +35,7 @@ Python은 매우 쉬운 언어로 처음 초보자들이 시작할때 가장 많
 
 
 ## 코드 에디터 추천 및 설치
-파이썬 코드 에디터 종류중에서는 가장 자주 쓰이는 것은 Pycharm과 Visual Studio Code 입니다. 가끔식 IDLE도 쓰이기는 하지만 그렇게 자주 쓰이고 있지 않으니 빼고 저희는 Visual Studio Code로 하도록 하겠습니다. 일단 첫번째로 https://code.visualstudio.com/ 해당 사이트를 들어가서 본인의 맞는 운영체제에 맞게 설치를 해주세요.
+파이썬 코드 에디터 종류중에서는 가장 자주 쓰이는 것은 Pycharm과 Visual Studio Code 입니다. 가끔식 IDLE도 쓰이기는 하지만 그렇게 자주 쓰이고 있지 않으니 빼고 저희는 Visual Studio Code로 하도록 하겠습니다. 일단 첫번째로 [code.visualstudio.com](https://code.visualstudio.com/) 해당 사이트를 들어가서 본인의 맞는 운영체제에 맞게 설치를 해주세요.
 설치를 다 하셨다면, 실행을 하셔서 다운로드를 시작하시면 됩니다(따로 추가해야 할 것은 없음) 그렇게 하시면 끝이 났습니다!
 
 [코드에디터 자세히 알아보기](https://developer.wade.pw/guide/code-editor).
