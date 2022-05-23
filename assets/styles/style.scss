@@ -203,6 +203,14 @@ footer .copy{
     color: rgb(155, 174, 187);
 }
 
+.docs .contents div.language-python::before{
+    content: "python";
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(155, 174, 187);
+}
+
 .docs .contents img{
     width: 100%;
     border-radius: 10px;
