@@ -211,6 +211,21 @@ footer .copy{
     color: rgb(155, 174, 187);
 }
 
+// lang color
+.highlighter-rouge .highlight code .k{
+    color: rgb(255, 230, 0);
+}
+.highlighter-rouge .highlight code .p{
+    color: rgb(70, 93, 123);
+}
+.highlighter-rouge .highlight code .nt{
+    color: rgb(57, 132, 229);
+}
+.highlighter-rouge .highlight code .s{
+    color: rgb(205, 205, 205);
+}
+
+
 .docs .contents img{
     width: 100%;
     border-radius: 10px;
