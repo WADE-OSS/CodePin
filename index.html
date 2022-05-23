@@ -14,7 +14,7 @@ style: index.css
   <div class="list">
     {% for post in site.posts limit:6 %}
       <a class="item" href="{{ post.url }}">
-        <p class="category">{{ post.categorys }}</p>
+        <p class="category">{{ post.categories }}</p>
         <p class="title">{{ post.title }}</p>
         <p class="info">{{ post.info }}</p>
       </a>
