@@ -1,6 +1,6 @@
 ---
 title: 프론트앤드, 백엔드 개발자가 써야할 도구
-info: 
+info: Front-end 와 Back-end 전용 도구 그리고 두 가지 모두를 위한 도구들을 소개하며 설치 방법을 제공합니다.
 categories : [guide]
 ---
 
