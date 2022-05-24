@@ -47,11 +47,6 @@
     <div class="docs">
         <div class="scroll">
             <div class="sidebar">
-                 {% assign category = page.categories[0] %}
-                 {% for post in site.categories[category] %}
-                    <!-- {{ post }} -->
-                 {% endfor %}
-                
                 {% for tag in site.tags %}
                         {% tag[1].categories == page.categories %}
                             <p>{{ tag[0] }}</p>
