@@ -49,12 +49,14 @@
             <div class="sidebar">
                 {% for tag in site.tags %}
                         
-                        {% if tag[1].categories != page.categories %}
-                            <p>{{ tag[0] }}</p>
-                        {% endif %}
+                        {% for postTag in tag[1] %}
+                            {% if postTag.categories == page.categories %}
+                                <p>{{ tag[0] }}</p>
+                            {% endif %}
+                        {% endfor %}
                 
                         {% for post in tag[1] %}
-                            {% if post.categories == page.categories%}
+                            {% if post.categories == page.categories %}
                                 {% if post.title == page.title %}
                                     <a href="{{ post.url }}" class="active">{{ post.title }}</a>
                                 {% else %}
