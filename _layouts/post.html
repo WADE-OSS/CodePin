@@ -49,21 +49,20 @@
             <div class="sidebar">
                  {% assign category = page.categories[0] %}
                  {% for post in site.categories[category] %}
-                    {% if post.title == page.title %}
-                         <a href="{{ post.url }}" class="active">{{ post.title }}</a>
-                    {% else %}
-                         <a href="{{ post.url }}">{{ post.title }}</a>
-                    {% endif %}
-                {% endfor %}
+                
+                 {% endfor %}
                 
                 {% for tag in site.tags %}
-                        <p>{{ tag[1] }}</p>
                         <p>{{ tag[0] }}</p>
-                        <ul>
-                            {% for post in tag[1] %}
-                            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                            {% endfor %}
-                        </ul>
+                        {% for post in tag[1] %}
+                            {% if post.categories == page.categories%}
+                                {% if post.title == page.title %}
+                                    <a href="{{ post.url }}" class="active">{{ post.title }}</a>
+                                {% else %}
+                                    <a href="{{ post.url }}">{{ post.title }}</a>
+                                {% endif%}
+                            {%endif%}
+                        {% endfor %}
                 {% endfor %}
                 
             </div>
