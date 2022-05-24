@@ -2,7 +2,7 @@
 title : HTML 소개
 info : HTML(Hypertext Markup Language)에 대한 소개와 구조화를 설명합니다.
 categories : [HTML]
-tag : [getting started]
+tag : [Getting Started]
 ---
 
 # 소개
