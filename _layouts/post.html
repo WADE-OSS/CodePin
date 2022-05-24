@@ -51,7 +51,7 @@
                  {% assign categoryList = "" | split: ',' %}
                 
                  {% for post in site.categories[category] %}
-                    {% assign categoryList = categoryList | push: post.tag %}
+                    {% assign categoryList = categoryList | push: post.tag | split: ',' %}
                     
                     {% if post.title == page.title %}
                          <a href="{{ post.url }}" class="active">{{ post.title }}</a>
