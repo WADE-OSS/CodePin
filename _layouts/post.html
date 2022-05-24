@@ -57,12 +57,13 @@
                 {% endfor %}
                 
                 {% for tag in site.tags %}
-                  <p>{{ tag[0] }}</p>
-                  <ul>
-                    {% for post in tag[1] %}
-                      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                  </ul>
+                        <p>{{ tag[1] }}</p>
+                        <p>{{ tag[0] }}</p>
+                        <ul>
+                            {% for post in tag[1] %}
+                            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                            {% endfor %}
+                        </ul>
                 {% endfor %}
                 
             </div>
