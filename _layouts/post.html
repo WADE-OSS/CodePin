@@ -52,7 +52,7 @@
                         {% for postTag in tag[1] %}
                             {% if postTag.categories == page.categories %}
                                 {% assign t = "" %}
-                                {% if t == tag[0] %}
+                                {% if t != tag[0] %}
                                     <p>{{ tag[0] }}</p>
                                     {% assign t = tag[0] %}
                                 {% endif %}
