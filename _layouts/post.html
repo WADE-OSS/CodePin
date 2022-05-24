@@ -48,20 +48,15 @@
         <div class="scroll">
             <div class="sidebar">
                  {% assign category = page.categories[0] %}
-                 {% assign categoryList = "" | split: ',' %}
-                
                  {% for post in site.categories[category] %}
-                    {% categoryList =+ push: post.tag | split: ',' %}
-                    
                     {% if post.title == page.title %}
                          <a href="{{ post.url }}" class="active">{{ post.title }}</a>
                     {% else %}
                          <a href="{{ post.url }}">{{ post.title }}</a>
                     {% endif %}
-                 
                 {% endfor %}
                 
-                {{ categoryList | uniq | join: ", " }}
+                {% if page.tag != empty %} [{% for tag in page.tag %} {{tag}} {% if forloop.index != page.tag.size %},{% endif %} {% endfor %}] {% endif %}
                 
             </div>
         </div>
