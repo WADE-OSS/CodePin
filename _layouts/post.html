@@ -53,7 +53,10 @@
                  {% endfor %}
                 
                 {% for tag in site.tags %}
-                        <p>{{ tag[0] }}</p>
+                        {% tag[1].categories == page.categories %}
+                            <p>{{ tag[0] }}</p>
+                        {% endif %}
+                
                         {% for post in tag[1] %}
                             {% if post.categories == page.categories%}
                                 {% if post.title == page.title %}
