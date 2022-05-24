@@ -45,10 +45,9 @@
 
   <!-- Docs -->
     <div class="docs">
-        <div class="scroll">
             <div class="sidebar">
                 {% for tag in site.tags %}
-                        {% tag[1].categories == page.categories %}
+                        {% if tag[1].categories == page.categories %}
                             <p>{{ tag[0] }}</p>
                         {% endif %}
                 
