@@ -61,9 +61,7 @@
                  
                 {% endfor %}
                 
-                {% for item in categoryList %}
-                  - {{ item }}
-                {% endfor %}
+                {{ categoryList | uniq | join: ", " }}
                 
             </div>
         </div>
