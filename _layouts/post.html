@@ -52,7 +52,7 @@
                 
                  {% for post in site.categories[category] %}
                     
-                    {% assign categoryList = categoryList | push: post.categories %}
+                    {% assign categoryList = categoryList | push: post.tag %}
                     
                     {% if post.title == page.title %}
                          <a href="{{ post.url }}" class="active">{{ post.title }}</a>
@@ -61,6 +61,7 @@
                     {% endif %}
                  
                 {% endfor %}
+                
                 <!-- {{ categoryList }} -->
                 
             </div>
