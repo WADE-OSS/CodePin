@@ -51,7 +51,6 @@
                  {% assign categoryList = "" | split: ',' %}
                 
                  {% for post in site.categories[category] %}
-                    
                     {% assign categoryList = categoryList | push: post.tag %}
                     
                     {% if post.title == page.title %}
@@ -62,7 +61,9 @@
                  
                 {% endfor %}
                 
-                <!-- {{ categoryList }} -->
+                {% for item in categoryList %}
+                  - {{ item }}
+                {% endfor %}
                 
             </div>
         </div>
