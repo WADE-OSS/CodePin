@@ -11,6 +11,8 @@ markdown:           rdiscount
 css:
   style:            :compressed
 
+futrue: true
+
 # Scopes
 defaults:
   -
