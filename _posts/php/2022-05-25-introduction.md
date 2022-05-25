@@ -14,7 +14,7 @@ PHP는 서버 측에서 실행되는 프로그래밍 언어로 [HTML](https://de
 
 
 ## PHP란 무엇일까?
-PHP(PHP: Hypertext Preprocessor)는 C언어를 기반으로 만들어진 서버 측에서 실행되는 서버 사이드 스크립트 언어입니다.
+PHP(PHP: Hypertext Preprocessor)는 [C언어](https://developer.wade.pw/category/c)를 기반으로 만들어진 서버 측에서 실행되는 서버 사이드 스크립트 언어입니다.
 동적 웹 페이지를 쉽고 빠르게 만들 수 있도록 해주는 데 그 목적이 있습니다.
 작성된 코드를 [HTML](https://developer.wade.pw/category/html) 코드 안에 추가하면, 웹 서버는 해당 PHP 코드를 해석하여 동적 웹 페이지를 생성합니다.
 
@@ -23,7 +23,7 @@ PHP(PHP: Hypertext Preprocessor)는 C언어를 기반으로 만들어진 서버 
 ### 장점
 1. 주요 운영체제와 대부분의 웹 서버에서 지원합니다.
 2. 다른 프로그래밍 언어보다 직관적으로 코드를 작성할 수 있어서, 작성해야 하는 코드의 양이 적습니다.
-3. 텍스트 처리에 특화되어 있어 HTML 문서 처리에 적합합니다.
+3. 텍스트 처리에 특화되어 있어 [HTML](https://developer.wade.pw/category/html) 문서 처리에 적합합니다.
 
 ### 단점
 1. 간단한 사이트를 제작하기 위해 만든 언어라서 복잡한 사이트를 만드는 데는 효율적이지 못합니다.
@@ -36,7 +36,7 @@ PHP(PHP: Hypertext Preprocessor)는 C언어를 기반으로 만들어진 서버 
 4. **PHP 7** 2배 이상의 속도 향상 및 익명 클래스(anonymous classes)가 추가됩니다.
 
 ## PHP 문법
-C언어처럼 PHP 명령문도 마지막은 세미콜론(;)으로 끝납니다.
+[C언어](https://developer.wade.pw/category/c)처럼 PHP 명령문도 마지막은 세미콜론(;)으로 끝납니다.
 ```php
 <?php
     echo "Hello World";
@@ -108,7 +108,7 @@ Code Pin!</p>
 
 
 ## echo() 함수
-echo() 함수 C언어의 printf() 함수나 C++의 cout 객체와 같이 HTML 스트림에 문자열을 출력해 줍니다.
+echo() 함수 [C언어](https://developer.wade.pw/category/c)의 printf() 함수나 C++의 cout 객체와 같이 HTML 스트림에 문자열을 출력해 줍니다.
 
 이러한 echo() 함수는 실제 함수가 아니므로, 인수를 전달할 때 괄호(())를 사용해도 되고 생략할 수도 있습니다.
 또한, 가변 길이 인수와 같이 함수 문맥으로도 사용할 수 없습니다.
