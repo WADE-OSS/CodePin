@@ -1,0 +1,29 @@
+---
+---
+
+<!-- Category -->
+<header class="category-header">
+    <h1>All Categories</h1>
+    <p>CodePin(wade developer)은 다양한 언어 및 개발자 유틸리티 문서를 제공합니다.</p>
+</header>
+
+<main class="category-main">
+    {% for category in site.categories %}
+      <div class="category">
+          <div class="info">
+              <h1 class="title">tag[0]</h1>
+              <p>웹의 기초입니다.</p>
+          </div>
+          <div class="list">
+            
+            {% for post in tag[1] %}
+              <a href="#" class="item">
+                  <h3>{{ post.title }}</h3>
+                  <p>{{ post.info }}</p>
+              </a>
+            {% endfor %}
+            
+          </div>
+      </div>
+   {% endfor %}
+</main>
