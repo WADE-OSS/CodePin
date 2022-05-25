@@ -34,6 +34,7 @@ PHP(PHP: Hypertext Preprocessor)는 [C언어](https://developer.wade.pw/category
 2. **PHP 5.3** 네임스페이스(namespaces)가 추가됩니다.
 3. **PHP 5.4** 단일 상속의 한계를 없앤 트레이트(traits) 개념이 추가됩니다.
 4. **PHP 7** 2배 이상의 속도 향상 및 익명 클래스(anonymous classes)가 추가됩니다.
+5. **PHP 8.0** 성능향상을 위한 JIT 도입, 정의되지 않은 변수 검사 등 예외처리 강화되었습니다.
 
 ## PHP 문법
 [C언어](https://developer.wade.pw/category/c)처럼 PHP 명령문도 마지막은 세미콜론(;)으로 끝납니다.
