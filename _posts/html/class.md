@@ -1,0 +1,9 @@
+---
+title: HTML Class 속성
+info:  HTML
+categories : [HTML]
+tag : [시작하기]
+---
+# HTML Class 속성
+HTML class속성은 HTML 요소에 대한 클래스를 지정하는 데 사용됩니다.
+여러 HTML 요소가 동일한 클래스를 공유할 수 있습니다.
