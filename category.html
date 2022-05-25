@@ -14,12 +14,12 @@ style: category.css
       <div class="category">
           <div class="info">
               <h1 class="title">{{ category[0] }}</h1>
-              <p>{{ category.subtitle }}</p>
+              <p>{{ category[0].subtitle }}</p>
           </div>
           <div class="list">
             
             {% for post in category[1] %}
-              <a href="#" class="item">
+              <a href="{{ post.url }}" class="item">
                   <h3>{{ post.title }}</h3>
                   <p>{{ post.info }}</p>
               </a>
