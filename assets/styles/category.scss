@@ -1,0 +1,49 @@
+---
+---
+/* category page */
+
+header.category-header{
+    padding: 200px 20% 100px;
+}
+
+header.category-header h1{
+    font-weight: 400;
+    font-size: 36px;
+}
+
+main.category-main{
+    padding: 50px 20%;
+}
+
+.category{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 70px;
+    border-top: solid 1px #e0e0e0;
+    padding-top: 70px;
+    align-items: start;
+}
+
+.category .info{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    margin-bottom: 50px;
+}
+
+.category .list .item{
+    padding: 25px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.category .list .item h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
