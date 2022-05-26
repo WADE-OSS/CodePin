@@ -1,2 +1,3 @@
 User-agent: *
-Allow : /
+Allow: /
+Sitemap: https://developer.wade.pw/sitemap.xml
