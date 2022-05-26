@@ -3,12 +3,13 @@ title : Python 입력과 출력
 info : Python으로 입출력 및 변수 설정을 해보도록 하겠습니다!
 categories : [Python]
 tag : [튜토리얼]
+priority : 1
 ---
 
 # 소개
 Python은 매우 쉬운 언어로 처음 초보자들이 시작할때 가장 많이 사용하는 프로그래밍 언어중 한 개입니다. 특징은 인간다운 언어로 불리웁니다.
 그렇다면, Python으로 입출력 및 변수 설정을 해보도록 하겠습니다!
-ㅇ
+
 ## 시작하기
 저번 강좌에서 설치한 Visual Studio Code를 실행시켜주시면
 
