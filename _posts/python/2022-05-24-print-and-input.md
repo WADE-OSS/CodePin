@@ -2,7 +2,7 @@
 title : Python 입력과 출력
 info : Python으로 입출력 및 변수 설정을 해보도록 하겠습니다!
 categories : [Python]
-tag : [tutorial]
+tag : [튜토리얼]
 ---
 
 # 소개
