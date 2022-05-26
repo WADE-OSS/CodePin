@@ -1,4 +1,5 @@
 ---
+published: true
 title : Python 연산자
 info : Python 연산자가 어떤것이 있는지 확인해보도록 하겠습니다!
 categories : [Python]
