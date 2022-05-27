@@ -49,10 +49,10 @@
     <div class="docs">
         <div class="scroll">
             <div class="sidebar">
-                {% assign sorted_pages = site.tags | sort:"order" %}
-                {% for tag in sorted_pages %}
+                {% for tag in site.tags %}
                         
-                        {% for postTag in tag[1] %}
+                        {% assign sorted_pages = tag[1] | sort:"order" %}
+                        {% for postTag in sorted_pages %}
                             {% if postTag.categories == page.categories %}
                                 {% if t != tag[0] %}
                                     <p>{{ tag[0] }}</p>
@@ -61,6 +61,7 @@
                             {% endif %}
                         {% endfor %}
                 
+                        {% assign sorted_pages = tag[1] | sort:"order" %}
                         {% for post in tag[1] %}
                             {% if post.categories == page.categories %}
                                 {% if post.title == page.title %}
