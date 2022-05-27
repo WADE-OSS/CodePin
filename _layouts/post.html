@@ -51,7 +51,7 @@
             <div class="sidebar">
                 {% for tag in site.tags %}
                         
-                        {% for postTag in sorted_pages %}
+                        {% for postTag in tag[1] %}
                             {% if postTag.categories == page.categories %}
                                 {% if t != tag[0] %}
                                     <p>{{ tag[0] }}</p>
