@@ -13,6 +13,7 @@ css:
 
 futrue: true
 
+timezone: Asia/Seoul
 # Scopes
 defaults:
   -
