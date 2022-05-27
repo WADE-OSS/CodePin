@@ -51,7 +51,6 @@
             <div class="sidebar">
                 {% for tag in site.tags %}
                         
-                        {% assign sorted_pages = tag[1] | sort:"Priority" %}
                         {% for postTag in sorted_pages %}
                             {% if postTag.categories == page.categories %}
                                 {% if t != tag[0] %}
@@ -61,7 +60,6 @@
                             {% endif %}
                         {% endfor %}
                 
-                        {% assign sorted_pages = tag[1] | sort:"Priority" %}
                         {% for post in tag[1] %}
                             {% if post.categories == page.categories %}
                                 {% if post.title == page.title %}
