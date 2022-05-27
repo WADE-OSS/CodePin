@@ -49,7 +49,8 @@
     <div class="docs">
         <div class="scroll">
             <div class="sidebar">
-                {% for tag in site.tags %}
+                {% assign sorted_pages = site.tags | sort:"order" %}
+                {% for tag in sorted_pages %}
                         
                         {% for postTag in tag[1] %}
                             {% if postTag.categories == page.categories %}
