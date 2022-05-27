@@ -182,7 +182,6 @@ footer .copy{
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 15px;
-    overflow-y: scroll;
 }
 
 .docs .contents div.language-ex::before{
@@ -191,6 +190,17 @@ footer .copy{
     font-size: 12px;
     font-weight: bold;
     color: rgb(155, 174, 187);
+}
+
+.docs .contents div.language-note{
+    padding: 10px 15px;
+    background-color: #d4d6e214;
+    border: solid 1px #e6e6e6;
+    border-radius: 10px;
+}
+
+.docs .contents div.language-note pre{
+    white-space: pre-wrap;
 }
 
 .docs .contents div.language-html::before{
