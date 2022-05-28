@@ -192,14 +192,6 @@ footer .copy{
     color: rgb(155, 174, 187);
 }
 
-.docs .contents .note{
-    padding: 10px 15px;
-    background-color: #d4d6e214;
-    border: solid 1px #e6e6e6;
-    border-radius: 10px;
-    color: #000;
-}
-
 .docs .contents div.language-html::before{
     content: "HTML";
     float: right;
@@ -256,4 +248,12 @@ footer .copy{
 
 .docs .contents a{
     color: #3183fe;
+}
+
+.docs .contents .note{
+    padding: 10px 15px;
+    background-color: #d4d6e214;
+    border: solid 1px #e6e6e6;
+    border-radius: 10px;
+    color: #000;
 }
