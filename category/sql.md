@@ -1,5 +1,5 @@
 ---
 layout: category
 title : SQL
-subtitle : (Structured Query Language)
+subtitle : SQL(Structured Query Language)
 ---
