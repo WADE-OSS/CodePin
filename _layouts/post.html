@@ -61,7 +61,8 @@
                             {% endif %}
                         {% endfor %}
                 
-                        {% for post in tag[1] %}
+                        {% assign pages = tag[1] | sort:"order" %}
+                        {% for post in pages %}
                             {% if post.categories == page.categories %}
                                 {% if post.title == page.title %}
                                     <a href="{{ post.url }}" class="active">{{ post.title }}</a>
