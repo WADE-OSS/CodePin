@@ -1,7 +1,7 @@
 ---
 published: true
-title : PHP 기본 타입
-info : PHP 기본 타입에 대해 알아보도록 하겠습니다.
+title : PHP 타입 변환
+info : PHP 타입 변환에 대해 알아보도록 하겠습니다.
 categories : [PHP]
 tag : [기초]
 order: 6
