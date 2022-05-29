@@ -82,7 +82,7 @@ echo "함수 밖에서 호출한 전역 변수 var의 값은 {$var}입니다.";
 8. $_REQUEST
 9. $_ENV
 
-\$GLOBALS를 제외한 나머지는 [Form](https://developer.wade.pw/php/form_handling) 과 [쿠키와 세션](https://developer.wade.pw/php/cookieSession_cookie) 에서 더 자세히 확인할 수 있습니다.
+\$GLOBALS를 제외한 나머지는 [Form](https://wade.pw/php/form_handling) 과 [쿠키와 세션](https://wade.pw/php/cookieSession_cookie) 에서 더 자세히 확인할 수 있습니다.
 
 ## 정적 변수(static variable)
 정적 변수(static variable)란 함수 내부에서 static 키워드로 선언한 변수를 의미합니다.

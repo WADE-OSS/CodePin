@@ -71,4 +71,4 @@ echo "</pre>";
 |\__NAMESPACE__|현재 네임스페이스의 이름을 반환함.|
 
 
-클래스와 메소드에 대한 더 자세한 사항은 [클래스와 객체](https://developer.wade.pw/php/classObject)에서 확인할 수 있습니다.
+클래스와 메소드에 대한 더 자세한 사항은 [클래스와 객체](https://wade.pw/php/classObject)에서 확인할 수 있습니다.

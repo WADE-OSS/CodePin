@@ -22,7 +22,7 @@ HTML(Hypertext Markup Language)은 아쉽게 프로그래밍 언어는 아닙니
 ## 구조 분석
 다음 예제 내용을 분석해보겠습니다.
 
-![](https://developer.wade.pw/assets/contents/htmlstructure.png)
+![](https://wade.pw/assets/contents/htmlstructure.png)
 
 1. **여는 태그(opening tag)** : 이것은 요소의 이름으로 구성되고 (여기에서는 p), 여닫는 꺾쇠괄호(<>)로 감싸집니다. 이것은 요소가 시작되는 곳에 위치하게 되며 이 예제에서 여는 태그는 `<p>`입니다.
 2. **닫는 태그(closing tag)** : 이것은 여는 태그와 같지만, 요소의 이름 앞에 전방향 슬래시(/)가 포함된다는 점이 다릅니다. 이것은 요소의 끝을 나타냅니다. 이 예제에서 닫는 태그는 `</p>`입니다.
@@ -30,13 +30,13 @@ HTML(Hypertext Markup Language)은 아쉽게 프로그래밍 언어는 아닙니
 4. **요소(element)** : 요소는 여는 태그와 닫는 태그, 그리고 컨텐츠로 이루어집니다. 위 사진에서는 `<p>안녕하세요! CodePin!</p>`이 하나의 요소입니다.
 
 또한 요소는 속성(Attributes)을 가질 수 있는데 다음과 같이 사용할 수 있습니다.
-![](https://developer.wade.pw/assets/contents/htmlattribute.png)
+![](https://wade.pw/assets/contents/htmlattribute.png)
 속성은 실제 컨텐츠로 표시되길 원하지 않는 추가적인 정보를 담고 있습니다.
 속성이 항상 다음 사항을 가지고 있어야합니다.
 1. 요소 이름 또는 요소가 하나 이상 속성을 이미 가지고 있다면 이전 속성과 속성 사이에 공백이 있어야 합니다.
 2. 속성 이름 뒤에는 등호(=)가 와야 합니다.
 3. 속성 값의 앞 뒤에 열고 닫는 부호(" 또는 ')가 있어야 합니다.
-[여기](https://developer.wade.pw/html/attributes)에서 속성에 대해 더 자세히 알아볼 수 있습니다.
+[여기](https://wade.pw/html/attributes)에서 속성에 대해 더 자세히 알아볼 수 있습니다.
 
 ## 요소 중첩
 요소는 다음과 같이 요소 안에 또 다른 요소를 넣을 수 있으며 이것을 요소 중첩이라고 합니다.

@@ -12,5 +12,5 @@ order: 3
 속성은 일반적으로 name="value" 와 같은 이름/값 형태로 구성됩니다.
 
 ## 대표 속성
-1. **class** : [글 참조.](https://developer.wade.pw/html/class)
-2. **id** : [글 참조.](https://developer.wade.pw/html/id)
+1. **class** : [글 참조.](https://wade.pw/html/class)
+2. **id** : [글 참조.](https://wade.pw/html/id)
