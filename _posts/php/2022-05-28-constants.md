@@ -4,6 +4,7 @@ title : PHP 상수
 info : PHP 상수에 대해 알아보도록 하겠습니다.
 categories : [PHP]
 tag : [기초]
+order: 4
 ---
 
 
