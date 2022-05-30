@@ -52,6 +52,7 @@ var_dump($num_01 != $num_03);  // false
 |array|모두|배열이 항상 큰 거로 판단됨.|
 |object|모두|객체가 항상 큰 거로 판단됨.|
 
+
 ```php
 ① var_dump(0 < true);           // true
 ② var_dump("123abc" == 123);    // true
