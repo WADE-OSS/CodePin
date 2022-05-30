@@ -3,6 +3,7 @@ title : Python 시작하기
 info : Python의 설치 방법과 프로그램을 소개합니다.
 categories : [Python]
 tag : [시작하기]
+order : 2
 ---
 
 # 소개
