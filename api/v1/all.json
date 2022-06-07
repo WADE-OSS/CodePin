@@ -2,7 +2,14 @@
 layout: null
 ---
 {
-  {% for post in site.posts %}
-    "{{post.title}}":"{{ site.url }}{{ post.url }}",
-  {% endfor %}
+  "post":{{ site.posts | size }},
+  "data":{
+    {% for post in site.posts %}
+      {% assign i = i+1%}
+      "{{post.title}}":{
+        "url":"{{ site.url }}{{ post.url }}",
+        "date":"{{ post.date | date_to_xmlschema }}"
+      }{% if i != site.posts | size %},{% endif %}
+    {% endfor %}
+  }
 }
