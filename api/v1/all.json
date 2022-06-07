@@ -1,17 +1,4 @@
 ---
 layout: null
 ---
-{
-  {% assign posts = site.posts | size %}
-  "post":{{ posts }},
-  "data":{
-    {% assign i = 0 %}
-    {% for post in site.posts %}
-      {% assign i = i | plus:1 %}
-      "{{ i }}":{
-        "title":"{{post.title}}",
-        "url":"{{ site.url }}{{ post.url }}",
-        "date":"{{ post.date | date_to_xmlschema }}"
-      }{% if i != posts %},{% endif %}{% endfor %}
-  }
-}
+{{% assign posts = site.posts | size %}"post":{{ posts }},"data":{{% assign i = 0 %}{% for post in site.posts %}{% assign i = i | plus:1 %}"{{ i }}":{"title":"{{post.title}}","url":"{{ site.url }}{{ post.url }}","date":"{{ post.date | date_to_xmlschema }}"}{% if i != posts %},{% endif %}{% endfor %}}}
