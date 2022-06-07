@@ -5,7 +5,8 @@ layout: null
   "post":{{ site.posts | size }},
   "data":{
     {% assign i = 0 %}
-    {% for post in site.posts %}{% assign i = i+1 %}"{{post.title}}":{
+    {% for post in site.posts %}{% assign i = i+1 %}"{{ i }}":{
+        "title":"{{post.title}}",
         "url":"{{ site.url }}{{ post.url }}",
         "date":"{{ post.date | date_to_xmlschema }}"
       }{% if i != site.posts | size %},{% endif %}{% endfor %}
