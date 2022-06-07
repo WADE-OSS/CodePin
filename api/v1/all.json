@@ -2,7 +2,8 @@
 layout: null
 ---
 {
-  "post":{{ site.posts | size }},
+  {% assign posts = site.posts | size %}
+  "post":{{ posts }},
   "data":{
     {% assign i = 0 %}
     {% for post in site.posts %}
@@ -11,6 +12,6 @@ layout: null
         "title":"{{post.title}}",
         "url":"{{ site.url }}{{ post.url }}",
         "date":"{{ post.date | date_to_xmlschema }}"
-      }{% if i != site.posts | size %},{% endif %}{% endfor %}
+      }{% if i != posts %},{% endif %}{% endfor %}
   }
 }
