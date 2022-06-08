@@ -10,7 +10,9 @@ layout: null
       {% assign i = i | plus:1 %}
       "{{ post.title }}":{
         "url":"{{ site.url }}{{ post.url }}",
-        "categories":[{{ post.categories }}],
+        "categories":"{{ post.categories }}",
+        "tag":"{{ post.tag }}",
+        "explanation":"{{ post.info }}",
         "date":"{{ post.date }}"
       }{% if i != posts %},{% endif %}
     {% endfor %}
