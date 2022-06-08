@@ -7,14 +7,17 @@ layout: null
   "data":{
     {% assign i = 0 %}
     {% for post in site.posts %}
+      {% assign words = post.content | number_of_words %}
       {% assign i = i | plus:1 %}
       "{{ post.title }}":{
         "url":"{{ site.url }}{{ post.url }}",
         "categories":"{{ post.categories }}",
         "tag":"{{ post.tag }}",
         "explanation":"{{ post.info }}",
-        "date":"{{ post.date }}"
-      }{% if i != posts %},{% endif %}
+        "date":"{{ post.date }}",
+        "readingTime":"{% if words < 360 %}1 min{% else %}{{ words | divided_by:180 }} mins{% endif %}"
+      }
+    {% if i != posts %},{% endif %}
     {% endfor %}
   }
 }
