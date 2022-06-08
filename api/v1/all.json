@@ -1,6 +1,5 @@
 ---
 layout: null
-permalink:/api/v1/all
 ---
 {% assign posts = site.posts | size %}
 {
