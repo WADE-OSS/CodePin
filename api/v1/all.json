@@ -16,7 +16,7 @@ layout: null
         "explanation":"{{ post.info }}",
         "date":"{{ post.date }}",
         "readingTime":"{% if words < 360 %}1{% else %}{{ words | divided_by:180 }}{% endif %}",
-        "word":"{{ word }}",
+        "word":"{{ words }}"
       }
     {% if i != posts %},{% endif %}
     {% endfor %}
