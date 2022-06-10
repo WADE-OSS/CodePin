@@ -10,7 +10,7 @@ layout: null
     {% for post in site.posts %}
       {% assign words = post.content | number_of_words %}
       {% assign i = i | plus:1 %}
-      {{ i }}:{
+      "{{ i }}":{
         "title":"{{ post.title }}",
         "url":"{{ site.url }}{{ post.url }}",
         "categories":"{{ post.categories }}",
@@ -19,8 +19,7 @@ layout: null
         "date":"{{ post.date }}",
         "readingTime":{% if words < 360 %}1{% else %}{{ words | divided_by:180 }}{% endif %},
         "word":{{ words }}
-      }
-    {% if i != posts %},{% endif %}
+      }{% if i != posts %},{% endif %}
     {% endfor %}
   }
 }
