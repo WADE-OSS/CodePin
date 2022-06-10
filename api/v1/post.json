@@ -10,7 +10,7 @@ layout: null
     {% for post in site.posts %}
       {% assign words = post.content | number_of_words %}
       {% assign i = i | plus:1 %}
-      "{{ i }}":{
+      {{ i }}:{
         "title":"{{ post.title }}",
         "url":"{{ site.url }}{{ post.url }}",
         "categories":"{{ post.categories }}",
