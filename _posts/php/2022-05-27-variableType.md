@@ -1,5 +1,4 @@
 ---
-published: true
 title : PHP 변수의 종류
 info : PHP 변수의 종류에 대해 알아보도록 하겠습니다.
 categories : [PHP]
