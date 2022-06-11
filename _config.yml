@@ -2,7 +2,7 @@
 name:               "WADE Developers"
 
 # URL
-baseurl:            "https://wade.pw"
+baseurl:            "https://developer.wade.pw"
 permalink:          /:categories/:title
 
 # Markdown
